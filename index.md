@@ -14,4 +14,4 @@ I am a forward-thinking and design-driven Computer Science student passionate ab
 
 ## Projects
 
-**Project 1**[Project 1](./Project1/index.html)
+[Project 1](./Project1/index.html)

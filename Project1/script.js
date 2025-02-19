@@ -24,7 +24,7 @@ background.onload = function() {
             ctx.font = "24px Arial";
             ctx.fillStyle = "white";
             ctx.fillText("Nature Landscape", 300, 50);
-            ctx.fillText("By Your Name", 300, 80);
+            ctx.fillText("By Johnathan", 300, 80);
         };
     };
 };
