@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('./images/background-image.png') no-repeat center center/cover;
+    color: white;
+}
+.container {
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+button:hover {
+    background: darkorange;
+}
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
