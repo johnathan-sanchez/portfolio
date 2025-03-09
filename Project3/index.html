@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Canvas Scene</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h2>Interactive Canvas Scene</h2>
+    
+    <!-- Background Selection -->
+    <fieldset>
+        <legend>Select Background:</legend>
+        <label><input type="radio" name="bg" value="bg1" checked> Background 1</label>
+        <label><input type="radio" name="bg" value="bg2"> Background 2</label>
+        <label><input type="radio" name="bg" value="bg3"> Background 3</label>
+    </fieldset>
+    
+    <!-- Character Position Control -->
+    <label>Move Character: <input type="range" id="positionSlider" min="50" max="350" value="200"></label>
+    
+    <!-- Item Toggles -->
+    <fieldset>
+        <legend>Show/Hide Items:</legend>
+        <label><input type="checkbox" id="item1"> Item 1</label>
+        <label><input type="checkbox" id="item2"> Item 2</label>
+        <label><input type="checkbox" id="item3"> Item 3</label>
+    </fieldset>
+    
+    <!-- Sound Effects -->
+    <button onclick="playSound('sound1')">Sound 1</button>
+    <button onclick="playSound('sound2')">Sound 2</button>
+    <button onclick="playSound('sound3')">Sound 3</button>
+    
+    <!-- Canvas -->
+    <canvas id="sceneCanvas" width="400" height="300"></canvas>
+    
+    <script src="script.js"></script>
+</body>
+</html>
