@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart.js Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <canvas id="doughnutChart" width="400" height="400"></canvas>
+    <canvas id="horizontalBarChart" width="400" height="400"></canvas>
+
+    <script>
+        const ctx1 = document.getElementById('doughnutChart').getContext('2d');
+        const doughnutChart = new Chart(ctx1, {
+            type: 'doughnut',
+            data: {
+                labels: ['Illegal Parking','Noise - Residential','Blocked Driveway','Noise - Street/Sidewalk','Street Condition','Abandoned Vehicle','HEAT/HOT WATER','Derelict Vehicles','Drug Activity', 'Noise - Commercial'],
+                datasets: [{
+                    label: 'Number of Complaints',
+                    data: [211, 80, 58, 36, 32, 29, 29, 26, 22, 21],
+                    backgroundColor: ['#FF5733', '#33FF57', '#5733FF', '#F9FF33', '#33FFF9', '#FF33A6', '#FF9133', '#9B33FF', '#33FFBE', '#F433FF'],
+                    hoverOffset: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Top 10 Complaints in NYC by Johnathan Sanchez',
+                        font: {
+                            size: 20
+                        }
+                    },
+                    legend: {
+                        position: 'top',
+                    }
+                }
+            }
+        });
+
+        const ctx2 = document.getElementById('horizontalBarChart').getContext('2d');
+        const horizontalBarChart = new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: ['Illegal Parking','Noise - Residential','Blocked Driveway','Noise - Street/Sidewalk','Street Condition','Abandoned Vehicle','HEAT/HOT WATER','Derelict Vehicles','Drug Activity', 'Noise - Commercial'],
+                datasets: [{
+                    label: 'Number of Complaints',
+                    data: [211, 80, 58, 36, 32, 29, 29, 26, 22, 21],
+                    backgroundColor: '#6A5ACD',
+                    borderColor: '#4B0082',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
