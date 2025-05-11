@@ -1,0 +1,68 @@
+[
+    {
+      "title": "Chamomile",
+      "text": "Chamomile is known for its calming effects and is commonly used in tea to promote sleep.",
+      "image": "chamomile.jpeg",
+      "audio": "chamomile.mp3"
+    },
+    {
+      "title": "Peppermint",
+      "text": "Peppermint helps with digestion and can relieve headaches and nausea.",
+      "image": "peppermint.jpg",
+      "audio": "peppermint.mp3"
+    },
+    {
+        "title": "Dandelion",
+        "text": "Dandelion greens, are a great source of vitamins and minerals such as: Vitamins A, C and K, Folate, Calcium, Potassium",
+        "image": "dandelion.webp",
+        "audio": "dandelion.mp3"
+    },
+    {
+        "title": "Lavender",
+        "text": "Lavender is commonly used to reduce anxiety, improve sleep, and relieve pain.",
+        "image": "lavender.jpg",
+        "audio": "lavender.mp3"
+      },
+      {
+        "title": "Eucalyptus",
+        "text": "Eucalyptus is used to relieve cold symptoms and clear nasal congestion. Its oil has antiseptic properties.",
+        "image": "eucalyptus.avif",
+        "audio": "eucalyptus.mp3"
+      },
+      {
+        "title": "Ginger",
+        "text": "Ginger helps reduce nausea, ease digestion, and fight inflammation.",
+        "image": "ginger.webp",
+        "audio": "ginger.mp3"
+      },
+      {
+        "title": "Turmeric",
+        "text": "Turmeric has anti-inflammatory and antioxidant properties. It may help with joint pain and overall immunity.",
+        "image": "turmeric.webp",
+        "audio": "turmeric.mp3"
+      },
+      {
+        "title": "Aloe Vera",
+        "text": "Aloe Vera is known for soothing skin burns, moisturizing the skin, and aiding digestion when consumed in moderation.",
+        "image": "aloe-vera.avif",
+        "audio": "aloe-vera.mp3"
+      },
+      {
+        "title": "Lemongrass",
+        "text": "Lemongrass has antibacterial and antifungal properties and is often used to aid digestion and relieve stress.",
+        "image": "lemongrass.jpg",
+        "audio": "lemongrass.mp3"
+      },
+      {
+        "title": "Basil",
+        "text": "Basil is used to relieve inflammation, reduce stress, and improve digestion. Holy basil is especially valued in Ayurvedic medicine.",
+        "image": "basil.jpg",
+        "audio": "basil.mp3"
+      },
+      {
+        "title": "Rosemary",
+        "text": "Rosemary is said to improve memory and concentration. It also contains antioxidants and anti-inflammatory compounds.",
+        "image": "rosemary.webp",
+        "audio": "rosemary.mp3"
+      }
+  ]
