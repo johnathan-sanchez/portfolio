@@ -20,3 +20,4 @@ I am a forward-thinking and design-driven Computer Science student passionate ab
 [Project 4](./Project4/index.html)
 [Project 5](./Project5/index.html)
 [PWA Project](./pwaProject/)
+[Resume Project](./resumeProject/index.html)

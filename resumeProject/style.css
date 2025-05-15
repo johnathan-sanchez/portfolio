@@ -1,0 +1,13 @@
+body {
+    scroll-behavior: smooth;
+}
+section {
+    padding: 60px 0;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
